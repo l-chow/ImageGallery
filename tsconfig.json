@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "target": "ESNext",
+    "sourceMap": true,
+    "moduleResolution": "nodenext"
+  },
+ "files": ["app.ts"]
+}

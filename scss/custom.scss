@@ -1,0 +1,22 @@
+@import "../node_modules/bootstrap/scss/functions";
+
+$primary: #A9FDAC;
+$dark: #1C0F13;
+$secondary: #6E7E85;
+$primary-bg-subtle: #BBBAC6;
+$primary-text-emphasis: $dark;
+$body-emphasis-color: $dark;
+$body-color: $dark;
+$tertiary: #f4f0f3;
+$body-tertiary-bg: #f4f0f3;
+
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+.carousel {
+    background-color: $tertiary;
+}
