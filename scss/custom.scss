@@ -1,4 +1,5 @@
 @import "../node_modules/bootstrap/scss/functions";
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 
 $primary: #A9FDAC;
 $dark: #1C0F13;
@@ -9,6 +10,7 @@ $body-emphasis-color: $dark;
 $body-color: $dark;
 $tertiary: #f4f0f3;
 $body-tertiary-bg: #f4f0f3;
+$pink: #a30041;
 
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/variables-dark";
@@ -20,3 +22,26 @@ $body-tertiary-bg: #f4f0f3;
 .carousel {
     background-color: $tertiary;
 }
+
+.btn-custom-primary {
+    --bs-btn-color: var(--bs-dark);
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-color: var(--bs-dark);
+    --bs-btn-hover-bg: #{shade-color($primary, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($primary, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bs-primary);
+    --bs-btn-active-color: var(--bs-dark);
+    --bs-btn-active-bg: #{shade-color($primary, 20%)};
+    --bs-btn-active-border-color: #{shade-color($primary, 20%)};
+}
+
+.text-pink {
+    color: $pink;
+}
+  
+//   .badge-like::before {
+//     content: "\F415";
+//     font-family: "Bootstrap-icons";
+//     color: $secondary;
+//   }
